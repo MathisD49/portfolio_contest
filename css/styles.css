@@ -2,6 +2,7 @@
   margin: auto;
 }
 
+/* HAUT DE LA PAGE */
 header {
   background-color: red;
 }
@@ -22,6 +23,7 @@ nav {
   text-align: right;
 }
 
+/* QUI SUIS-JE */
 .whoami {
   background-color: yellow;
 }
@@ -68,14 +70,17 @@ img {
   height: auto;
 }
 
+/* PARCOURS */
 .career {
   background-color: blue;
 }
 
+/* COMPETENCES */
 .skills {
   background-color: green;
 }
 
+/* PROJETS */
 .project {
   background-color: purple;
 }
