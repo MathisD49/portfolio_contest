@@ -255,3 +255,52 @@ progress::-moz-progress-bar {
 }
 
 /* mise en place du responsive de la page */
+@media screen and (max-width: 1384px){
+  .enterprise, .school{
+    margin-right: 600px;
+  }
+}
+
+@media screen and (max-width: 1188px){
+  .enterprise, .school{
+    margin-right: 400px;
+  }
+}
+
+@media screen and (max-width: 912px){
+  .page_title {
+    font-size: 40px;
+  }
+
+  .enterprise, .school{
+    margin-right: 200px;
+  }
+}
+
+@media screen and (max-width: 860px){
+  .content_whoami{
+    flex-direction: column;
+  }
+
+  .other_content {
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 722px){
+  .project_list{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 588px){
+  .enterprise, .school{
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 552px){
+  .informations_whoami p {
+    margin-right: 30%;
+  }
+}
