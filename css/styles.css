@@ -6,7 +6,7 @@
 /* HAUT DE LA PAGE */
 header {
   background-color: #1B5DCF;
-  color: #ffffff;
+  color: #000000;
 }
 
 .page_title {
@@ -21,9 +21,14 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  font-size: 20px;
-  padding-bottom: 15px;
-  border: 1px #000000 solid;
+  font-size: 18px;
+}
+
+.nav_menu span {
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  transition-duration: 1s;
 }
 
 nav {
@@ -84,11 +89,14 @@ nav {
 }
 
 .other_content span {
-  background-color: black;
+  background-color: #1B5DCF;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px #000000;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-right: 50px;
   padding-left: 50px;
+  transition-duration: 1s;
 }
 
 img {
@@ -224,3 +232,26 @@ progress::-moz-progress-bar {
     background: #000000;
   }
 }
+
+/* TRANSITION */
+.other_content span:hover{
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.nav_menu span:hover, .nav_menu a:hover{
+  border: 1px #000000 solid;
+  background-color: #000000;
+  text-decoration-color: #ffffff;
+}
+
+/* PSEUDO-ELEMENT */
+.text_black a:link, .text_black a:visited, .project_link a:link, .project_link a:visited {
+  color: #000000;
+}
+
+.text_white a:link, .text_white a:visited {
+  color: #ffffff;
+}
+
+/* mise en place du responsive de la page */
