@@ -80,6 +80,14 @@ nav {
   padding-right: 105px;
 }
 
+.other_content span {
+  background-color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
 img {
   max-width: 220px;
   height: auto;
