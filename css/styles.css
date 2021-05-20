@@ -171,6 +171,15 @@ img {
   flex-direction: column;
 }
 
+progress {
+  border-radius: 14px;
+}
+
+progress::-moz-progress-bar {
+  border-radius: 12px;
+  box-shadow: inset 0 -2px 4px rgba(0,0,0,0.4), 0 2px 5px 0px rgba(0,0,0,0.3);
+}
+
 
 
 /* PROJETS */
