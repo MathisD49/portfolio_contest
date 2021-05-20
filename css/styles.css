@@ -15,8 +15,6 @@ header {
   display: flex;
   flex-direction: column;
   position: relative;
-  left: 300px;
-  bottom: 60px;
 }
 
 nav {
@@ -94,7 +92,37 @@ img {
   background-color: green;
 }
 
+.informations_skills {
+  display: flex;
+  flex-direction: row;
+}
+
+.hard_skill, .soft_skill {
+  border: 1px #000000 solid;
+}
+
+.hard_skill, .soft_skill, .hard_skill_content, .soft_skill_content {
+  display: flex;
+  flex-direction: column;
+}
+
 /* PROJETS */
 .project {
   background-color: purple;
+  padding-bottom: 10px;
+}
+
+.project_list {
+  display: flex;
+  flex-direction: row;
+}
+
+.project_content {
+  margin-right: 75px;
+  margin-left: 10px;
+  border: 1px #000000 solid;
+}
+
+.project_name {
+  font-weight: bold;
 }
