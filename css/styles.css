@@ -35,7 +35,6 @@ nav {
   text-align: right;
 }
 
-
 /* QUI SUIS-JE */
 .whoami {
   padding-top: 10px;
@@ -140,7 +139,6 @@ img {
   padding-top: 10px;
 }
 
-
 .school, .enterprise {
   border: 1px #000000 solid;
   margin-right: 800px;
@@ -189,8 +187,6 @@ progress::-moz-progress-bar {
   background: #1B5DCF;
   animation: change-color 3s ease infinite;
 }
-
-
 
 /* PROJETS */
 .project {
