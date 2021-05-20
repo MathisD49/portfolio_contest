@@ -4,32 +4,44 @@
 
 /* HAUT DE LA PAGE */
 header {
-  background-color: red;
+  background-color: #515151;
+  color: #ffffff;
 }
 
 .page_title {
   text-align: center;
+  font-size: 45px;
+  padding-bottom: 20px;
+
 }
 
 .nav_menu {
   display: flex;
   flex-direction: column;
   position: relative;
+  font-size: 30px;
+  padding-bottom: 35px;
 }
 
 nav {
   text-align: right;
 }
 
+
 /* QUI SUIS-JE */
 .whoami {
-  background-color: yellow;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 20px;
 }
 
 .content_whoami {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
 
 .informations_whoami p {
@@ -42,6 +54,10 @@ nav {
   display: flex;
   flex-direction: column;
   margin-left: 10px;
+}
+
+.point_interest, .contact {
+  padding-top: 10px;
 }
 
 .contact_content address, .contact_content span{
@@ -61,10 +77,11 @@ nav {
   flex-direction: column;
   margin-top: 10px;
   margin-bottom: 5px;
+  padding-right: 105px;
 }
 
 img {
-  max-width: 25%;
+  max-width: 220px;
   height: auto;
 }
 
