@@ -1,0 +1,37 @@
+* {
+  margin: auto;
+}
+
+header {
+  background-color: red;
+}
+
+.page_title {
+  text-align: center;
+}
+
+.nav_menu {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+nav {
+  text-align: right;
+}
+
+.whoami {
+  background-color: yellow;
+}
+
+.career {
+  background-color: blue;
+}
+
+.skills {
+  background-color: green;
+}
+
+.project {
+  background-color: purple;
+}
