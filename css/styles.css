@@ -1,10 +1,11 @@
 * {
   margin: auto;
+  font-family: georgia, serif;
 }
 
 /* HAUT DE LA PAGE */
 header {
-  background-color: #515151;
+  background-color: #1B5DCF;
   color: #ffffff;
 }
 
@@ -16,11 +17,13 @@ header {
 }
 
 .nav_menu {
-  display: flex;
-  flex-direction: column;
   position: relative;
-  font-size: 30px;
-  padding-bottom: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 20px;
+  padding-bottom: 15px;
+  border: 1px #000000 solid;
 }
 
 nav {
@@ -95,7 +98,7 @@ img {
 
 /* PARCOURS */
 .career {
-  background-color: #515151;
+  background-color: #1B5DCF;
   font-size: 20px;
   padding-top: 10px;
   padding-left: 10px;
@@ -113,6 +116,10 @@ img {
   margin-left: 10px;
 }
 
+.career_school, .career_enterprise {
+  padding-top: 10px;
+}
+
 .career_enterprise span, .career_enterprise time, .career_enterprise p{
   margin-right: 50%;
   display: flex;
@@ -122,12 +129,18 @@ img {
 
 .school_name, .enterprise_name {
   font-weight: bold;
+  padding-top: 10px;
 }
 
 
 .school, .enterprise {
   border: 1px #000000 solid;
   margin-right: 800px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px #000000;
+  background-color: #ffffff;
 }
 
 /* COMPETENCES */
@@ -135,7 +148,8 @@ img {
   font-size: 20px;
   padding-top: 10px;
   padding-left: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
+
 }
 
 .informations_skills {
@@ -146,6 +160,10 @@ img {
 .hard_skill, .soft_skill {
   border: 1px #000000 solid;
   padding: 10px;
+  margin-top: 10px;
+  box-shadow: 1px 1px 5px #000000;
+  border-radius: 10px;
+  background-color: #1B5DCF;
 }
 
 .hard_skill, .soft_skill, .hard_skill_content, .soft_skill_content {
@@ -157,7 +175,7 @@ img {
 
 /* PROJETS */
 .project {
-  background-color: #515151;
+  background-color: #1B5DCF;
   font-size: 20px;
   padding-top: 10px;
   padding-left: 10px;
@@ -173,7 +191,12 @@ img {
 .project_content {
   margin-right: 30px;
   margin-left: 10px;
+  margin-top: 10px;
   border: 1px #000000 solid;
+  padding: 10px;
+  box-shadow: 1px 1px 5px #000000;
+  border-radius: 10px;
+  background-color: #ffffff;
 }
 
 .project_name {
