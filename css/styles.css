@@ -124,7 +124,10 @@ img {
 
 /* COMPETENCES */
 .skills {
-  background-color: green;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
 
 .informations_skills {
@@ -134,6 +137,7 @@ img {
 
 .hard_skill, .soft_skill {
   border: 1px #000000 solid;
+  padding: 10px;
 }
 
 .hard_skill, .soft_skill, .hard_skill_content, .soft_skill_content {
@@ -141,15 +145,21 @@ img {
   flex-direction: column;
 }
 
+
+
 /* PROJETS */
 .project {
-  background-color: purple;
-  padding-bottom: 10px;
+  background-color: #515151;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 20px;
 }
 
 .project_list {
   display: flex;
   flex-direction: row;
+  padding-top: 10px;
 }
 
 .project_content {
