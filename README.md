@@ -34,7 +34,7 @@ Créer un template de protfolio professionnel contenant notre profil, un cv et u
 
 ------
 
-- CSS
+- CSS /6
   - Validation du W3C sans erreur /2
   - Utilisation de flexbox /1
   - Utilisation des positionnements relatifs-absolus /1
