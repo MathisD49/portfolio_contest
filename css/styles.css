@@ -14,7 +14,7 @@ header {
   font-size: 45px;
   padding-bottom: 50px;
   padding-top: 50px;
-
+  animation: change-color-text 3s ease infinite;
 }
 
 .nav_menu {
@@ -181,14 +181,27 @@ img {
 
 progress {
   border-radius: 14px;
+  -webkit-appearance: none;
 }
 
 progress::-moz-progress-bar {
   border-radius: 12px;
   box-shadow: inset 0 -2px 4px rgba(0,0,0,0.4), 0 2px 5px 0px rgba(0,0,0,0.3);
   background: #1B5DCF;
-  animation: change-color 3s ease infinite;
 }
+
+progress::-webkit-progress-bar {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: inset 0 -2px 4px rgba(0,0,0,0.4), 0 2px 5px 0px rgba(0,0,0,0.3);
+}
+
+progress::-webkit-progress-value {
+  border-radius: 12px;
+  box-shadow: inset 0 -2px 4px rgba(0,0,0,0.4), 0 2px 5px 0px rgba(0,0,0,0.3);
+  background-color: #1B5DCF;
+}
+
 
 .title_hard_skill, .title_soft_skill {
   padding-bottom: 15px;
@@ -225,13 +238,13 @@ progress::-moz-progress-bar {
 }
 
 /* KEYFRAME */
-@keyframes change-color {
+@keyframes change-color-text{
   0% {
-    background: #1B5DCF;
+    color: #000000;
   }
 
   50% {
-    background: #000000;
+    color: #ffffff;
   }
 }
 
