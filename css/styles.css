@@ -18,7 +18,7 @@ header {
 }
 
 .nav_menu {
-  position: relative;
+  position: absolute;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -138,6 +138,7 @@ img {
 .school_name, .enterprise_name {
   font-weight: bold;
   padding-top: 10px;
+  padding-bottom: 15px;
 }
 
 .school, .enterprise {
@@ -189,13 +190,17 @@ progress::-moz-progress-bar {
   animation: change-color 3s ease infinite;
 }
 
+.title_hard_skill, .title_soft_skill {
+  padding-bottom: 15px;
+}
+
 /* PROJETS */
 .project {
   background-color: #1B5DCF;
   font-size: 20px;
   padding-top: 10px;
   padding-left: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 .project_list {
